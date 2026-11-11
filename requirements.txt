@@ -1,11 +1,19 @@
+# Tested notebook interfaces target Python 3.11.
 numpy
 pandas
+scipy
 scikit-learn
 matplotlib
 tqdm
+joblib
+threadpoolctl
+quantile-forest
+ipython
+ipykernel
+jupyter
+nbconvert
+# ILINet TCN only; a PyTorch-compatible Darts installation is required.
 torch
 pytorch-lightning
-darts
-pandas-datareader
-quantile-forest
-optuna
+u8darts[torch]
+pytest
